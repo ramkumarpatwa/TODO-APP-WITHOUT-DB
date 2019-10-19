@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>My Awesome Todo</h1>
+            <input type="text" id="input"><br>
+            <button type="button" id="add">Add Todo</button>
+            <button type="button" id="remove">remove done Todo</button>
+            <button type="button" id="removeAll">remove Everything</button>
+
+        </div>
+        <ul id="list">  <!-- we need to loop through this whole loop so id taken -->
+            <li class="mycheck"><input type="checkbox" id="check"><label>Approch her</label></li>
+            <li class="mycheck"><input type="checkbox" id="check"><label>Date Her</label></li>
+            
+            <li class="mycheck"><input type="checkbox" id="check"><label>Propose Her<label></li>
+            <li class="mycheck"><input type="checkbox" id="check"><label>Kiss Her</label></li>
+            <li class="mycheck"><input type="checkbox" id="check"><label>promise her to stay together</label></li>
+            <li class="mycheck"><input type="checkbox" id="check"><label>Marry her</label></li>
+
+
+
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
