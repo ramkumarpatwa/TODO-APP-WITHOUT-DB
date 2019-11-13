@@ -55,10 +55,10 @@ function removeItem(){
 
 function removeAllItem(){
     
-    // li = ul.children;
+     li = ul.children;
     
-    // for (let index = li.length-1; index>=0; index--) {  this for loop will not work if iterated from 0 to length-1 because after deleting at index 0 list of index 1 comes at index 1 and hence now that will not be deleted and then at index 2 will be deleted as index 1 
-    //     li[index].remove();
-    // }
-   ul.remove()
+     for (let index = li.length-1; index>=0; index--) {  //this for loop will not work if iterated from 0 to length-1 because after deleting at index 0 list of index 1 comes at index 1 and hence now that will not be deleted and then at index 2 will be deleted as index 1 
+         li[index].remove();
+     }
+   //ul.remove()
 }
