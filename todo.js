@@ -35,12 +35,12 @@ function addItem(){
         //add these elements on web page
         ul.appendChild(label);
         li.appendChild(checkbox);
-        
-        label.appendChild(textNode);
         li.appendChild(label);
-        ul.insertBefore(li,ul.childNodes[0]);
+        
+        
+        ul.insertBefore(li,ul.childNodes[0]);//takes two para what you want to add and where so at the very first node . 
         li.className = 'visual';
-
+        input.value='';//clearing the input value
     }
 }
 
